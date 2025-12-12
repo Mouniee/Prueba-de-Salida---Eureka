@@ -71,5 +71,6 @@ mvn test
 ```
 
 **B) Desde el IDE**
+
 Ejecutar `TestRunner.java`.
 
