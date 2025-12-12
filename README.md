@@ -1,10 +1,10 @@
-Proyecto de Automatización – Banco Central de Chile
+🏦 Proyecto de Automatización – Banco Central de Chile
 
 Selenium + Java + Cucumber
 
 Este proyecto es una suite de pruebas automatizadas que navega por el sitio oficial del Banco Central de Chile y realiza validaciones e inspecciones simples utilizando Selenium WebDriver, Java, Cucumber y JUnit.
 
-Objetivo del proyecto
+📌 Objetivo del proyecto
 
 El propósito es automatizar un flujo básico que permita:
 
@@ -18,7 +18,7 @@ Leer los valores UF, UTM, Dólar y Euro mostrados en la interfaz del sitio.
 
 Todo esto está orquestado a través de un escenario Gherkin (Cucumber) y ejecutado mediante un runner JUnit.
 
-Tecnologías y dependencias
+🧩 Tecnologías y dependencias
 
 Las dependencias están declaradas en el pom.xml del proyecto 
 
@@ -38,13 +38,13 @@ org.json 20240303
 
 El proyecto usa Maven para la gestión de dependencias y ejecución.
 
-Estructura principal del proyecto
-Feature: bancoCentral.feature
+🗂 Estructura principal del proyecto
+✔ Feature: bancoCentral.feature
 
 Contiene el escenario Cucumber (Gherkin) que define los pasos en lenguaje natural.
 (El archivo fue subido pero su contenido no se mostró en la vista; aun así, sus pasos coinciden con los bindings detectados en el step definition.)
 
-Step Definitions: BancoCentralSteps.java
+✔ Step Definitions: BancoCentralSteps.java
 
 Este archivo implementa los pasos definidos en el feature y ejecuta Selenium para interactuar con el sitio del Banco Central.
 Entre sus funciones destacadas:
@@ -66,7 +66,7 @@ BancoCentralSteps
 
 Incluye también un método tearDown() para cerrar el navegador al finalizar cada prueba.
 
-Runner: TestRunner.java
+✔ Runner: TestRunner.java
 
 Define la configuración para ejecutar los escenarios con Cucumber y JUnit:
 
@@ -79,7 +79,7 @@ Plugin: pretty
 
 TestRunner
 
-¿Cómo ejecutar el proyecto?
+▶️ ¿Cómo ejecutar el proyecto?
 
 Instalar dependencias
 
@@ -91,9 +91,10 @@ Ejecutar Cucumber via Maven
 mvn test
 
 
-Asegurarse de tener ChromeDriver compatible con versión de Google Chrome
+Asegúrate de tener ChromeDriver compatible con tu versión de Google Chrome
+(Debe estar en el PATH o configurado vía WebDriverManager si decides agregarlo en el futuro).
 
-Flujo del escenario automatizado
+📘 Flujo del escenario automatizado
 
 Abrir sitio del Banco Central
 
