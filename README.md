@@ -1,5 +1,5 @@
 
-# 🏦 Proyecto de Automatización -- Banco Central de Chile
+# Proyecto de Automatización -- Banco Central de Chile
 
 **Selenium + Java + Cucumber**
 
@@ -8,7 +8,7 @@ sitio oficial del **Banco Central de Chile** y realiza validaciones e
 inspecciones simples utilizando **Selenium WebDriver**, **Java**,
 **Cucumber** y **JUnit**.
 
-## 📌 Objetivo del proyecto
+## Objetivo del proyecto
 
 El propósito es automatizar un flujo básico que permita:
 
@@ -18,7 +18,7 @@ El propósito es automatizar un flujo básico que permita:
 -   Leer los valores UF, UTM, Dólar y Euro mostrados en la interfaz del
     sitio.
 
-## 🧩 Tecnologías y dependencias
+## Tecnologías y dependencias
 
 Las dependencias están declaradas en el `pom.xml` del proyecto:
 
@@ -28,22 +28,22 @@ Las dependencias están declaradas en el `pom.xml` del proyecto:
 -   **JUnit 4.13.2**\
 -   **org.json 20240303**
 
-## 🗂 Estructura principal del proyecto
+## Estructura principal del proyecto
 
-### ✔ Feature: `bancoCentral.feature`
+### Feature: `bancoCentral.feature`
 
 Define el escenario de prueba Cucumber.
 
-### ✔ Step Definitions: `BancoCentralSteps.java`
+### Step Definitions: `BancoCentralSteps.java`
 
 Implementa los pasos definidos en el feature utilizando Selenium
 WebDriver.
 
-### ✔ Runner: `TestRunner.java`
+### Runner: `TestRunner.java`
 
 Configura la ejecución de las pruebas con Cucumber + JUnit.
 
-## ▶️ ¿Cómo ejecutar el proyecto?
+## ¿Cómo ejecutar el proyecto?
 
 1.  Instalar dependencias:
 
@@ -59,7 +59,7 @@ Configura la ejecución de las pruebas con Cucumber + JUnit.
 ```
     mvn test
 
-3.  Asegurar que ChromeDriver sea compatible con tu versión de Chrome.
+3.  Asegurar que ChromeDriver sea compatible con versión de Chrome.
 
 ## 📘 Flujo del escenario automatizado
 
@@ -68,10 +68,3 @@ Configura la ejecución de las pruebas con Cucumber + JUnit.
 3.  Muestra su contenido.\
 4.  Valida el título del sitio.\
 5.  Lee los valores UF, UTM, Dólar y Euro.
-
-## 💡 Posibles mejoras
-
--   Usar WebDriverManager.\
--   Reemplazar XPaths largos.\
--   Agregar reportes (Allure, Extent).\
--   Integración CI/CD.
