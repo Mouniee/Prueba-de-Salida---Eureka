@@ -44,24 +44,6 @@ Configura la ejecución de las pruebas con Cucumber + JUnit.
 
 ## ¿Cómo ejecutar el proyecto?
 
-1.  Instalar dependencias:
-
-```{=html}
-<!-- -->
-```
-    mvn clean install
-
-2.  Ejecutar pruebas:
-
-```{=html}
-<!-- -->
-```
-    mvn test
-
-3.  Asegurar que ChromeDriver sea compatible con tu versión de Chrome.
-
-## 🚀 Cómo ejecutar este proyecto
-
 ### Requisitos previos
 - Java 8+ (ideal Java 11/17)
 - Maven instalado
