@@ -1,5 +1,5 @@
 
-# Proyecto de Automatización -- Banco Central de Chile
+# Proyecto de Automatización -- Banco Central
 
 **Selenium + Java + Cucumber**
 
