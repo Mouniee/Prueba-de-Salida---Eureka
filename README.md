@@ -3,8 +3,8 @@
 
 **Selenium + Java + Cucumber**
 
-Este proyecto es una suite de pruebas automatizadas que navega por el
-sitio oficial del **Banco Central de Chile** y realiza validaciones e
+Este proyecto genera pruebas automatizadas que navega por el
+sitio oficial del Banco Central de Chile y realiza validaciones e
 inspecciones simples utilizando **Selenium WebDriver**, **Java**,
 **Cucumber** y **JUnit**.
 
@@ -15,8 +15,7 @@ El propósito es automatizar un flujo básico que permita:
 -   Abrir el sitio del Banco Central.\
 -   Contar etiquetas HTML `<h1>` y `<p>`.\
 -   Validar el título de la página.\
--   Leer los valores UF, UTM, Dólar y Euro mostrados en la interfaz del
-    sitio.
+-   Leer los valores UF, UTM, Dólar y Euro mostrados en el sitio.
 
 ## Tecnologías y dependencias
 
@@ -60,11 +59,3 @@ Configura la ejecución de las pruebas con Cucumber + JUnit.
     mvn test
 
 3.  Asegurar que ChromeDriver sea compatible con versión de Chrome.
-
-## 📘 Flujo del escenario automatizado
-
-1.  Abre el sitio del Banco Central.\
-2.  Cuenta etiquetas H1 y P.\
-3.  Muestra su contenido.\
-4.  Valida el título del sitio.\
-5.  Lee los valores UF, UTM, Dólar y Euro.
