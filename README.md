@@ -53,7 +53,7 @@ Configura la ejecución de las pruebas con Cucumber + JUnit.
 ### Clonar o abrir el proyecto
 Si usas Git:
 ```
-git clone <URL-del-repo>
+git clone <[URL-del-repo](https://github.com/Mouniee/Prueba-de-Salida---Eureka.git)>
 cd bcentral-test
 ```
 
