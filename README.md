@@ -26,8 +26,7 @@ Las dependencias están declaradas en el `pom.xml` del proyecto:
 -   **Cucumber Java 7.18.1**\
 -   **Cucumber JUnit 7.18.1**\
 -   **JUnit 4.13.2**\
--   **org.json 20240303**
-
+  
 ## Estructura principal del proyecto
 
 ### Feature: `bancoCentral.feature`
