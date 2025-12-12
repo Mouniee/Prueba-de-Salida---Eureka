@@ -46,6 +46,7 @@ Configura la ejecución de las pruebas con Cucumber + JUnit.
 
 1.  Instalar dependencias:
 
+```
     mvn clean install
 
 2.  Ejecutar pruebas:
